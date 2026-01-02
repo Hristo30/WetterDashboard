@@ -1,0 +1,22 @@
+/* Google Font laden */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Schrift auf gesamte App anwenden */
+body, html, div, p, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Etwas hübscher: Karten */
+.card {
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
